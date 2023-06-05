@@ -18,31 +18,31 @@
     </header>
     <section>
       <h3>Add Review</h3>
-      <form>
-        <div>
-          <label for="name">Name:</label>
+      <form class="review-form">
+        <label>
+          <span>Name:</span>
           <input type="text" id="name" />
-        </div>
-        <div>
-          <label for="restaurant">Restaurant:</label>
+        </label>
+        <label>
+          <span>Restaurant:</span>
           <select id="restaurant">
             <option value="choose one">Choose one</option>
             <option value="main street cafe">Main street cafe</option>
             <option value="greek house">Greek house</option>
           </select>
-        </div>
-        <div>
-          <label for="date-of-visit">Date of visit: </label>
+        </label>
+        <label>
+          <span>Date of visit: </span>
           <input type="date" id="date-of-visit" />
-        </div>
-        <div>
-          <label for="rating">Rating: </label>
+        </label>
+        <label>
+          <span>Rating: </span>
           <input type="number" id="rating" />
-        </div>
-        <div>
-          <label for="details">Details:</label>
+        </label>
+        <label>
+          <span>Details:</span>
           <textarea name="details" id="details" cols="50" rows="3"></textarea>
-        </div>
+        </label>
         <input type="submit" value="Submit" />
       </form>
     </section>

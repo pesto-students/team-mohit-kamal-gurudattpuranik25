@@ -10,12 +10,12 @@
   <body>
     <h1>Happy Birthday Message Creator</h1>
     <form method="post" id="message-creator-form">
-      <div>
-        <label for="message">Message:</label>
+      <label>
+        <span>Message:</span>
         <input type="text" id="message" name="message" />
-      </div>
-      <div>
-        <label for="email">Email address:</label>
+      </label>
+      <label>
+        <span>Email address:</span>
         <input
           type="text"
           pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-
@@ -24,17 +24,17 @@
           name="email"
           placeholder="name@domain.com"
         />
-      </div>
-      <div>
-        <label for="date">Date to send:</label>
+      </label>
+      <label>
+        <span>Date to send:</span>
         <input type="date" id="date" name="date" />
-      </div>
-      <div>
-        <label for="color">Message color:</label>
+      </label>
+      <label>
+        <span>Message color:</span>
         <input type="color" id="color" name="color" />
-      </div>
-      <div>
-        <label for="noOfBlinks">Number of blinks:</label>
+      </label>
+      <label>
+        <span>Number of blinks:</span>
         <input
           type="Number"
           id="noOfBlinks"
@@ -43,9 +43,9 @@
           min="0"
           max="10"
         />
-      </div>
-      <div>
-        <label for="volume">Music volume:</label>
+      </label>
+      <label>
+        <span>Music volume:</span>
         <input
           type="range"
           id="volume"
@@ -54,10 +54,10 @@
           min="0"
           max="50"
         />
-      </div>
-      <div>
+      </label>
+      <label>
         <button type="submit">Send Birthday Message</button>
-      </div>
+      </label>
     </form>
   </body>
 </html>

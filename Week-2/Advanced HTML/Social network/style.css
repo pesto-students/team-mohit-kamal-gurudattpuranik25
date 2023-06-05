@@ -1,5 +1,9 @@
-form label {
+#register-form label {
+  display: block;
+  padding-bottom: 1rem;
+}
+
+#register-form span {
   display: inline-block;
   width: 150px;
-  padding-bottom: 1rem;
 }

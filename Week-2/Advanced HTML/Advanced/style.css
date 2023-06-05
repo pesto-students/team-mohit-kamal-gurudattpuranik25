@@ -12,7 +12,11 @@ ul > li {
   padding: 0rem;
 }
 
-span {
+.review-form label {
+  display: block;
+}
+
+.contact-information {
   color: blue;
   text-decoration: underline;
 }

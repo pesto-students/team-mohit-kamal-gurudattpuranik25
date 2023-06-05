@@ -1,5 +1,9 @@
-form label {
+#message-creator-form label {
+  display: block;
+  padding-bottom: 1rem;
+}
+
+#message-creator-form span {
   display: inline-block;
   width: 150px;
-  padding-bottom: 1rem;
 }
