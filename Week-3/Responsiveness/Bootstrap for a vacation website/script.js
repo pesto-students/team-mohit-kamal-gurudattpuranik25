@@ -4,15 +4,9 @@ function showAlert(alertId) {
   collapse.show();
 }
 
-const modalYesBtn = document.querySelector("[data-bs-target] ");
+const modalYesBtn = document.querySelector("#contact-modal .btn-primary");
 modalYesBtn.addEventListener("click", function () {
   const sendBtn = document.querySelector("#send-message-btn");
   sendBtn.style.display = "none";
   showAlert("conf-alert");
 });
-
-// document.querySelector("#contact-modal").addEventListener("click", () => {
-//   const sendBtn = document.querySelector("#send-message-btn");
-//   sendBtn.style.display = "block";
-//   showAlert("conf-alert");
-// });
