@@ -33,7 +33,7 @@ class CustomPromise {
   }
 
   //   "then" method --> used to register success and failure callback functions that get called when the promise is fulfilled or rejected
-  thenu(onFulfilled, onRejected) {
+  then(onFulfilled, onRejected) {
     // create a new instance of CustomPromise class
     return new CustomPromise((resolve, reject) => {
       const onFulfilledCallback = (value) => {
