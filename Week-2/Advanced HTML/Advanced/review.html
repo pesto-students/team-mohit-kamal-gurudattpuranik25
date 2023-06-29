@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurant Reviews - Add review</title>
+  </head>
+  <body>
+    <header>
+      <h1>Restaurant Reviews</h1>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./review.html">Add Review</a></li>
+        <li><a href="./about.html">About</a></li>
+      </ul>
+    </header>
+    <section>
+      <h3>Add Review</h3>
+      <form class="review-form">
+        <label>
+          <span>Name:</span>
+          <input type="text" id="name" />
+        </label>
+        <label>
+          <span>Restaurant:</span>
+          <select id="restaurant">
+            <option value="choose one">Choose one</option>
+            <option value="main street cafe">Main street cafe</option>
+            <option value="greek house">Greek house</option>
+          </select>
+        </label>
+        <label>
+          <span>Date of visit: </span>
+          <input type="date" id="date-of-visit" />
+        </label>
+        <label>
+          <span>Rating: </span>
+          <input type="number" id="rating" />
+        </label>
+        <label>
+          <span>Details:</span>
+          <textarea name="details" id="details" cols="50" rows="3"></textarea>
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <footer>&copy; 2022 Restaurant Reviews</footer>
+  </body>
+</html>

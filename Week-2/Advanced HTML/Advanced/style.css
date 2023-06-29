@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li {
+  display: inline;
+  padding: 0rem;
+}
+
+.review-form label {
+  display: block;
+}
+
+.contact-information {
+  color: blue;
+  text-decoration: underline;
+}
